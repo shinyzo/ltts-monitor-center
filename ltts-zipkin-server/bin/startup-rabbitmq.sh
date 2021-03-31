@@ -1,0 +1,1 @@
+java -jar zipkin-server-2.12.2-exec.jar --logging.level.zipkin2=INFO --zipkin.collector.rabbitmq.addresses=192.168.152.37:5672 --zipkin.collector.rabbitmq.password=1234 --zipkin.collector.rabbitmq.username=admin --STORAGE_TYPE=mysql --MYSQL_DB=xjj_zlm --MYSQL_USER=xjj_zlm --MYSQL_PASS=xjj_zlm --MYSQL_HOST=192.168.0.177 --MYSQL_TCP_PORT=3306
